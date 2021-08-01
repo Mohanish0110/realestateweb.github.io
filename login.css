@@ -1,0 +1,189 @@
+body {
+  background-image: url("a.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-attachment: fixed;
+}
+span {
+  margin-left: 0%;
+  margin-top: 10px;
+  font-family: "arial";
+  font-weight: bolder;
+  font-size: 15px;
+
+  color: #f8de7e;
+}
+
+.custom {
+  text-align: center;
+  text-align: down;
+  background-color: rgba(0, 0, 0, 0.459);
+  border-radius: 20px;
+  block-size: auto;
+
+  margin-left: 550px;
+  margin-top: -10px;
+  padding-bottom: 20px;
+  width: 420px;
+  height: 320px;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  text-align: left;
+  color: rgb(255, 234, 220);
+  padding-left: 35px;
+  padding-top: 15px;
+}
+h1 {
+  margin-right: 80px;
+  margin-top: 150px;
+  font-family: "Lucida Handwriting";
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+  color: #321414;
+}
+
+input[type="submit"] {
+  background-color: rgba(83, 196, 83, 0.795);
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 25px;
+}
+
+input[type="reset"] {
+  background-color: rgba(00, 00, 00);
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+  padding: 10px 25px;
+}
+
+input[type="email"] {
+  background-color: rgba(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: left;
+  color: rgb(20, 20, 20);
+  margin-top: 5px;
+  padding: 10px 25px;
+}
+
+input[type="password"] {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: left;
+  color: rgb(17, 16, 16);
+  margin-top: 2px;
+  padding: 10px 25px;
+}
+
+ul a:link {
+  color: cornsilk;
+  background-color: rgba(0, 0, 0, 0.514);
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+ul a:visited {
+  color: cornsilk;
+}
+
+ul {
+  list-style-type: none;
+  margin: -30px;
+  padding: 0px;
+  overflow: hidden;
+  /* background-color: rgba(252, 252, 252, 0.384); */
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  max-width: 102%;
+  background-attachment: fixed;
+}
+
+li {
+  float: left;
+  padding-block: 5px;
+  padding-left: 2px;
+  padding-right: 5px;
+  width: 100px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }*/
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(132, 68, 161, 0.75);
+  font-size: 250%;
+
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  margin-top: 0px;
+  margin-right: 520px;
+}
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 12em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #ece0cf;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

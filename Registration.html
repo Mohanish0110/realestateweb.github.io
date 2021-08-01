@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Registration</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Registration.css" type="text/css">
+        <script src="registration.js">    </script>
+        <ul>
+            <li><a   href="index.html">Home</a></li>&nbsp;
+            <li><a href="https://www.worldpropertyjournal.com/real-estate-news/india/" target="_blank">News</a></li>&nbsp;
+            <li><a href="contact.html">Contact</a></li>
+            <li style="float:right"><a href="Login.html">Login</a></li>
+          </ul><br>
+          
+    </head>
+    <body>
+        
+        <p class="line-1 anim-typewriter" style="font-family: lucida handwriting;   margin-left: 540px;margin-top:10px;color: rgba(65, 30, 99, 0.75);width: 500px;"><b>MH-19 REAL ESTATE</b></p> 
+        <p class="line-1 anim-typewriter" style="font-family: lucida handwriting;color: rgba(65, 30, 99, 0.75); margin-left: 620px;margin-top:10px;"><b>Registration</b></p> 
+        <div class="custom" > 
+            
+        <form onsubmit="return validate()" action="more details.html">
+            <br><br>
+            <label for="name">Name *</label> <br> 
+             <input type="text" name="t1" id="t1" placeholder="Enter name" required onmouseout="uname()&&uvar()">
+             <br><div><span id="s1" > </span></div><br>
+             <label for="password">password *</label> <br>
+            <input type="password" name="p1" id="p1" placeholder="Enter Password" required onmouseout= "pass()&&format()">
+            <br><span id="s2"></span><br><br>
+            <label for="cpassword">Confirm password *</label> <br>
+            <input type="password" name="p2" id="p2" placeholder="Confirm Password" required onmouseout="cpass()&&vpass()">
+            <br><span id="s3"></span><br><br>
+            <label for="email">Email *</label> <br>
+            <input type="email" name="e1" id="e1" placeholder="Enter Email" required onmouseout="eformat()">
+            <br><span id="s4"></span><br>
+            <input type="submit" value="next" >
+            <input type="Reset" value="Reset"  ><br>
+        </form>
+    </div>
+    </body>
+</html>

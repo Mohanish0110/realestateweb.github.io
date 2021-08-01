@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">        
+        <link rel="stylesheet" href="login.css" type="text/css"/>
+        <script src="login.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <ul>
+            
+            <li><a   href="index.html">Home</a></li>&nbsp;
+            <li><a href="https://www.worldpropertyjournal.com/real-estate-news/india/" target="_blank">News</a></li>&nbsp;
+            <li><a href="contact.html">Contact</a></li>
+            <li style="float:right;"><a href="Registration.html">Signup</a></li>
+          </ul>
+          
+    </head>
+        <body>    
+            <p class="line-1 anim-typewriter" style="font-family: lucida handwriting;position: static; margin-left: 535px;margin-top:70px;color: rgba(65, 30, 99, 0.75);"><b>MH-19 REAL ESTATE</b></p> 
+            <p class="line-1 anim-typewriter" style="font-family: lucida handwriting;color: rgba(10, 10, 10, 0.75); margin-left: 580px;margin-top:2px;"><b>Property Search</b></p>
+            
+                <div class ="custom" > 
+                    <form onsubmit="return validate()" action="home.html">
+                    <h2 calss="ali">Login</h2>
+            <label for="UserName"></label>
+            <input type="email"  id="e1" placeholder="Username" onmouseout="usermail()"> <br><span id="s1" style="color:corn"></span><br>
+            <label for="Pass"></label>
+            <input type="password" id="p1" placeholder="Password" onmouseout="pass()&&format()"><br><span id="s2"></span><br>
+            <input class ="submit" type ="submit" name="submit" id="b1" value="Login"  /> &nbsp;
+            <input type="reset" value="reset" class="reset" id="b2"><br>
+            <a style="color:white;font-family:Arial" href="#"><br>Forgot Password?<div class="form-group">
+            
+        </form>
+      
+                </div>
+                <!-- <script>
+                    $("#b1").click(function(){
+                        $("#b2").hide();
+                    });
+                </script> -->
+        
+        </body>
+</html>
